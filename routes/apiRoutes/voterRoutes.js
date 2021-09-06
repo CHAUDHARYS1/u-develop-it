@@ -38,7 +38,7 @@ router.get('/voter/:id', (req, res) => {
         })
     });
 });
-
+// add a voter
 router.post('/voter', ({body}, res) => {
     //data validation
     const errors = inputCheck(body, 'first_name', 'last_name', 'email');
@@ -65,6 +65,7 @@ router.post('/voter', ({body}, res) => {
     });
 });
 
+// change data for a voter
 router.put('/voter/:id', (req, res) => {
     // Data validation
     const errors = inputCheck(req.body, 'email');
@@ -93,7 +94,7 @@ router.put('/voter/:id', (req, res) => {
     });
   });
 
-  // delete all voters from the database
+  // delete voters from the database
 router.delete('/voter/:id', (req, res) => {
 
     const sql = `DELETE FROM voters WHERE id = ?`;
