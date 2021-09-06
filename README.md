@@ -1,5 +1,5 @@
 # U Vote It
-### Description
+## Description
 A voting application called **U Vote It**. It is a backend aplication that uses sql to generate data and the data is handle by routes.
 
 ## Installation
