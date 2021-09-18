@@ -1,16 +1,89 @@
-# U Vote It
-## Description
-A voting application called **U Vote It**. It is a backend aplication that uses sql to generate data and the data is handle by routes.
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Installation
-  To run the application, do the following(in order):  
-  1) ```git clone``` the repo to your desired local folder
-  2) ```open a``` with the code editor of your choice
-  3) open terminal
-  5) install all the packages and dependensies by running ```npm install``` in the CLI
-  4) start the server by typing the following in the cli: ```npm run devStart``` (nodemon)
-  5) open browser and type the following in the url: ```http://localhost:3001/api/candidates/``` 
-  6) list of routes are below:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/CHAUDHARYS1/u-vote">
+    <img src="public/images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">U-Vote</h3>
+
+  <p align="center">
+    A voting application called **U Vote It**. It is a backend aplication that uses SQL to generate data and the data is handle by routes.
+    <br />
+    <a href="https://github.com/CHAUDHARYS1/u-vote"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/CHAUDHARYS1/u-vote">View Demo</a>
+    ·
+    <a href="https://github.com/CHAUDHARYS1/u-vote/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/CHAUDHARYS1/u-vote/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+Simple back-end application built from Express, Node, MySQL. Different endpoints lead to different parts of query. 
+
+### Built With
+
+* [Node.js]()
+* [Express.js]()
+* [JavaScript]()
+* [MySQL]()
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+2. Install all NPM packages
+   ```sh
+   npm install
+   ```
+3. Start the server
+    ```sh
+    npm run devStart
+    ```
+
+4. Open browser and try different routes!
+  ```sh
+  http://localhost/3001/add_routes_here/
+  ```
+
+List of routes that are available to try out below.
 
 | Type of request 	| Routes             | Results             |
 |-----------------	|-----------------	 | -----------------   |
@@ -29,8 +102,11 @@ A voting application called **U Vote It**. It is a backend aplication that uses 
 | POST              | /api/voter         | add a voter                  |    
 | PUT               | /api/voter/:id     | change data for a voter      |
 | DELETE            | /api/voter/:id     | delete voter                 |
-### Language
-- Node.js
-- Express.js w/ Nodemon
-- JavaScript
-- MySQL 
+
+
+<!-- CONTACT -->
+## Contact
+
+[Shital Chaudhary](https://www.linkedin.com/in/stlchaudhary/)
+
+[https://github.com/CHAUDHARYS1/u-vote](https://github.com/github_username/repo_name)
